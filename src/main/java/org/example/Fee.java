@@ -16,6 +16,7 @@ import java.util.List;
 @AllArgsConstructor
 public class Fee {
     private String label;
+    private String Label;
     private double amount;
     private Instant deadline;
     private Student student;
